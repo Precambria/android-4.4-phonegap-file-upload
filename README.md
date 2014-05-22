@@ -19,3 +19,6 @@ Replace the generated www folder with the contents of this repo, then add the An
 deploy it to your device:
 
     #cordova run android
+    
+
+More details available at http://www.precambria.net/?p=54
