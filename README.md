@@ -4,21 +4,18 @@ android-4.4-phonegap-file-upload
 Sample project for demonstrating how to enable file uploads from Android 4.4+ webview (Phonegap)
 
 
-To use this example, create a new phonegap project:
+#To use this example, create a new phonegap project:
 
-#cordova create webview-upload com.precambria.webview-upload WebviewUpload
+cordova create webview-upload com.precambria.webview-upload WebviewUpload
 
-Add the camera plugin:
+#Add the camera plugin:
 
-#cordova plugin add org.apache.cordova.camera
+cordova plugin add org.apache.cordova.camera
 
-replace the generated www folder with the contents of this repo
+#Replace the generated www folder with the contents of this repo, then add the Android platform:
 
-Add the Android platform:
+cordova platform add android
 
-#cordova platform add android
+#deploy it to your device:
 
-
-deploy it to your device:
-
-#cordova run android
+cordova run android
